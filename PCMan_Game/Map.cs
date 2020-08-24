@@ -53,7 +53,7 @@ namespace PCMan_Game
                 {
                     for (int j = 0; j < width; j++)
                     {
-                        Console.WriteLine($"jsonitems {jsonItems}");
+                        //Console.WriteLine($"jsonitems {jsonItems}");
                         cells[i, j] = jsonItems[i];
                     }
                 }
