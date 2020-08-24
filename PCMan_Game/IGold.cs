@@ -4,8 +4,7 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    public interface IKey : ICellAction
+    public interface IGold
     {
-        //public void TakeKey();
     }
 }

@@ -1,117 +1,132 @@
+
 [
 {
-"xPosition":"0",
-"yPosition":"0",
-"content":"None",
-"key":"None",
+"xPosition":0,
+"yPosition":0,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"0",
-"yPosition":"1",
-"content":"Enemy",
-"weapon":"10",
-"key":"None",
+"xPosition":0,
+"yPosition":1,
+"content":3,
+"weapon":10,
+"rank":"None"
 
 },
 {
-"xPosition":"0",
-"yPosition":"2",
-"content":"None",
-"key":"None",
+"xPosition":0,
+"yPosition":2,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"0",
-"yPosition":"3",
-"content":"None",
-"key":"None",
+"xPosition":0,
+"yPosition":3,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"1",
-"yPosition":"0",
-"content":"None",
-"key":"None",
+"xPosition":1,
+"yPosition":0,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"1",
-"yPosition":"1",
-"content":"None",
-"key":"None",
+"xPosition":1,
+"yPosition":1,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"1",
-"yPosition":"2",
-"content":"None",
-"key":"None",
+"xPosition":1,
+"yPosition":2,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"1",
-"yPosition":"3",
-"content":"Key",
-"key":"Gold",
+"xPosition":1,
+"yPosition":3,
+"content":2,
+"weapon":0,
+"rank":"Silver"
 
 },
 {
-"xPosition":"2",
-"yPosition":"0",
-"content":"None",
-"key":"None",
+"xPosition":2,
+"yPosition":0,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"2",
-"yPosition":"1",
-"content":"None",
-"key":"None",
+"xPosition":2,
+"yPosition":1,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"2",
-"yPosition":"2",
-"content":"Enemy",
-"weapon" : "40",
-"key":"None",
+"xPosition":2,
+"yPosition":2,
+"content":3,
+"weapon" : 40,
+"rank":"None"
 
 },
 {
-"xPosition":"2",
-"yPosition":"3",
-"content":"None",
-"key":"None",
+"xPosition":2,
+"yPosition":3,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"3",
-"yPosition":"0",
-"content":"Diamond Treasure",
-"key":"None",
+"xPosition":3,
+"yPosition":0,
+"content":4,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"3",
-"yPosition":"1",
-"content":"None",
-"key":"None",
+"xPosition":3,
+"yPosition":1,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"3",
-"yPosition":"2",
-"content":"None",
-"key":"None",
+"xPosition":3,
+"yPosition":2,
+"content":0,
+"weapon":0,
+"rank":"None"
 
 },
 {
-"xPosition":"3",
-"yPosition":"3",
-"content":"Silver Treasure",
-"key":"None",
+"xPosition":3,
+"yPosition":3,
+"content":1,
+"weapon":0,
+"rank":"Silver"
 
-},
+}
 
 ]

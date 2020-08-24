@@ -4,11 +4,11 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    class BronzeKey : IKey
+    class BronzeKey: IKey, IBronze
     {
-        public void TakeKey()
+        public new void TakeAction(Player player)
         {
-            Console.WriteLine("Take bronze key");
+            player.keys.Add(this);
         }
     }
 }

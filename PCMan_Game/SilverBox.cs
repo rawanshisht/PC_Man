@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    class SilverBox : IBox
+    class SilverBox : IBox, ISilver
     {
         public int health { get; set; }
         public int weapon { get; set; }

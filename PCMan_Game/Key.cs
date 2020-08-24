@@ -5,19 +5,24 @@ using System.Text;
 namespace PCMan_Game
 {
     //Context
-    class Key
+    public class Key : ICellAction
     {
         private IKey _key;
 
         public Key(IKey key)
         {
-            this._key = key;
+            _key = key;
         }
 
-        public void TakeKey()
+        public void TakeAction(Player player)
         {
-            _key.TakeKey();
+            _key.TakeAction(player);
         }
+
+        //public void TakeKey()
+        //{
+        //    _key.TakeKey();
+        //}
       
     }
 }

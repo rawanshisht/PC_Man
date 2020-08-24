@@ -4,11 +4,12 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    class SilverKey : IKey
+    class SilverKey :IKey, ISilver
     {
-        public void TakeKey()
+        
+        public new void TakeAction(Player player)
         {
-            Console.WriteLine("Take silver key");
+            player.keys.Add(this);
         }
     }
 }

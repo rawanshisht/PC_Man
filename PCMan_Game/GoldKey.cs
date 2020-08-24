@@ -4,11 +4,19 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    class GoldKey : IKey
+    class GoldKey : IKey, IGold
     {
-        public void TakeKey()
+        public GoldKey()
         {
-            Console.WriteLine("Take gold key");
+
         }
+        public new void TakeAction(Player player)
+        {
+            player.keys.Add(this);
+        }
+        //public void TakeKey()
+        //{
+        //    Console.WriteLine("Take gold key");
+        //}
     }
 }

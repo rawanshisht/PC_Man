@@ -12,23 +12,8 @@ namespace PCMan_Game
 
         static void Main(string[] args)
         {
-            Map map = new Map();
-            map.loadMap();
-            
-            Player player1 = Player.getPlayer();
-            Player player2 = Player.getPlayer();
-
-            Game game = Game.startGame();
-            
-            player1.health = 10;
-            Enemy enemy = new Enemy();
-
-            enemy.DecreaseHealth(player1.health);
-
-           // KeyType key = KeyType.Gold;
-            //keyStrategy goldKey = new keyStrategy(key);
-            //Console.WriteLine(goldKey.health);
-
+            Game Game = Game.startGame();
+            Game.PlayGame();
 
         }
     }

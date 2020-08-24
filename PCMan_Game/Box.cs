@@ -5,7 +5,7 @@ using System.Text;
 namespace PCMan_Game
 {
     //Context
-    class Box
+    class Box : ICellAction
     {
         private IBox _box;
 
@@ -20,6 +20,12 @@ namespace PCMan_Game
         public void increaseWeapon()
         {
             _box.increaseWeapon();
+        }
+
+        public void TakeAction(Player player)
+        {
+            increaseHealth();
+            increaseWeapon();
         }
     }
 }

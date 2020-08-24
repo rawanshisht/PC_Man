@@ -4,18 +4,20 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    class Enemy
+    class Enemy : ICellAction
     {
         public int enemyWeapon { get; set; }
-        public int DecreaseHealth(int playerHealth)
+        public void TakeAction(Player player)
         {
-            Console.WriteLine("Enemy");
-            //enemyWeapon = 2;
-            if (playerHealth >= enemyWeapon)
+            DecreaseHealth(player);
+        }
+        public int DecreaseHealth(Player player)
+        {
+            if (player.health >= enemyWeapon)
             {
-                int x = playerHealth - enemyWeapon;
+                int x = player.health - enemyWeapon;
                 Console.WriteLine($"Player health after enemy {x}");
-                return playerHealth -= enemyWeapon;
+                return player.health -= enemyWeapon;
             }
             else
             {
@@ -25,6 +27,8 @@ namespace PCMan_Game
 
 
         }
+
+       
     }
 }
 

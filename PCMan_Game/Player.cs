@@ -4,15 +4,22 @@ using System.Text;
 
 namespace PCMan_Game
 {
-    class Player
+    public class Player
 
     {
         private static Player _instance;
 
         public int health { get; set; }
         //list of keys and treasures
-        protected Player()
+        public List<IKey> keys { get; set; }
+
+        public int xPosition { get; set; }
+        public int yPosition { get; set; }
+
+
+        private Player()
         {
+            keys = new List<IKey>();
         }
 
         public static Player getPlayer()
@@ -23,6 +30,12 @@ namespace PCMan_Game
             }
 
             return _instance;
+        }
+
+        public void Move(int x, int y)
+        {
+            xPosition = x;
+            yPosition = y;
         }
     }
 }
